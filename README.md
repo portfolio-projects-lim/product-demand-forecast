@@ -47,7 +47,14 @@ In manufacturing and supply chain management, demand forecasting helps companies
 
 - Data Cleaning & EDA
 
-  Product Demand Overview (2011 - 2016): Warehouse & Product Insights, Return Behavior
+  Product Demand Overview (2011 - 2016): Warehouse & Product Insights, Return Behavior.
+
+  Summary published as INSIGHT.md in this project.
+  
+  [View Initial EDA Insight](https://github.com/portfolio-projects-lim/product-demand-forecast/commit/234c881b088d9c5888603c4557e44a7e628cb415)
+
+  I've published my Tableau workbook. You can view the interactive dashboard here:
+
   [View Tableau Visualization - Warehouse, Product Insights, Return Behavior](https://public.tableau.com/views/ProductDemandForecast_17570459518060/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 - Model Evaluation
