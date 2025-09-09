@@ -5,7 +5,7 @@ This project uses real-world manufacturing demand data to forecast future produc
 
 📌 Project Background
 
-In manufacturing and supply chain management, demand forecasting helps companies:
+In manufacturing and supply chain management, demand forecasting helps companies to:
 
 - Reduce inventory stockouts & overstocking
 
@@ -39,26 +39,58 @@ In manufacturing and supply chain management, demand forecasting helps companies
 
 - Database: SQLite
 
-- Machine Learning & Time Series: ...
+- Machine Learning & Time Series Forecast Models
 
 - Visualization: Tableau, Matplotlib, Seaborn
 
 📌 Steps:
 
-- Data Cleaning & EDA
+1️⃣ **Data Cleaning & EDA**
 
-  Product Demand Overview (2011 - 2016): Warehouse & Product Insights, Return Behavior.
+  - Load dataset
 
-  Summary published as INSIGHT.md in this project.
+  - Clean + Aggregate
+
+  - Initial EDA
+
+    Product Demand Overview (2011 - 2016): Warehouse & Product Insights, Return Behavior.
+
+    Summary published as INSIGHT.md in this project.
   
-  [View Initial EDA Insight](https://github.com/portfolio-projects-lim/product-demand-forecast/commit/234c881b088d9c5888603c4557e44a7e628cb415)
+    [View Initial EDA Insight](https://github.com/portfolio-projects-lim/product-demand-forecast/commit/234c881b088d9c5888603c4557e44a7e628cb415)
 
-  I've published my Tableau workbook. You can view the interactive dashboard here:
+    Tableau dashboard published (Overview & Initial Insights):
 
-  [View Tableau Visualization - Warehouse, Product Insights, Return Behavior](https://public.tableau.com/views/ProductDemandForecast_17570459518060/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+    [View Tableau Visualization - Warehouse, Product Insights, Return Behavior](https://public.tableau.com/views/ProductDemandForecast_17570459518060/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-- Model Evaluation
+ - Train/test data split
 
-- Visualization
+   Train: 2011 - 2015
 
-- Further Possible Improvement
+   Test: 2016
+
+2️⃣ **Baseline Models**
+  
+  - Naive Forecast, Moving Average, Holt-Winters Models Forecast
+
+3️⃣ **XGBoost Model**
+
+  - Feature engineering (lags + rollings)
+
+  - Time series Cross-Validation & hyperparameter tuning
+
+  - Retain best config on 2011 - 2015
+
+  - Forecast 2016
+
+4️⃣ **Models Evaluation**
+
+  - Calculate MAE, RMSE, MAPE for each model
+
+5️⃣ **Export to CSV**  
+
+  - For analysis and visualization: Model_Evaluation_Results.csv
+
+📌 Visualization
+
+📌 Further Possible Improvement
