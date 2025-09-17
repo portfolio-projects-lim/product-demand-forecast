@@ -51,46 +51,52 @@ In manufacturing and supply chain management, demand forecasting helps companies
 
   - Clean + Aggregate
 
-  - Initial EDA
+  - EDA & Initial visualization
 
     Product Demand Overview (2011 - 2016): Warehouse & Product Insights, Return Behavior.
 
     Summary published as INSIGHT.md in this project.
   
-    [View Initial EDA Insight](https://github.com/portfolio-projects-lim/product-demand-forecast/commit/234c881b088d9c5888603c4557e44a7e628cb415)
+    [View EDA Initial Insight](https://github.com/portfolio-projects-lim/product-demand-forecast/commit/234c881b088d9c5888603c4557e44a7e628cb415)
 
     Tableau dashboard published (Overview & Initial Insights):
 
     [View Tableau Visualization - Warehouse, Product Insights, Return Behavior](https://public.tableau.com/views/ProductDemandForecast_17570459518060/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
- - Train/test data split
+2️⃣ **Train/test data split (Time-based)**
 
    Train: 2011 - 2015
 
    Test: 2016
 
-2️⃣ **Baseline Models**
+3️⃣ **Baseline Models**
   
   - Naive Forecast, Moving Average, Holt-Winters Models Forecast
 
-3️⃣ **XGBoost Model**
+4️⃣ **Machine Learning Models**
 
+  - Prophet, XGBoost
+  
   - Feature engineering (lags + rollings)
 
   - Time series Cross-Validation & hyperparameter tuning
 
-  - Retain best config on 2011 - 2015
+  - Retain best config on 2011 - 2015, forecast 2016
 
-  - Forecast 2016
-
-4️⃣ **Models Evaluation**
+5️⃣ **Models Evaluation**
 
   - Calculate MAE, RMSE, MAPE for each model
-
-5️⃣ **Export to CSV**  
+    
+6️⃣ **Export to CSV**  
 
   - For analysis and visualization: Model_Evaluation_Results.csv
 
-📌 Visualization
+7️⃣ **Visualization**
 
-📌 Further Possible Improvement
+- Error Metrics Comparison published on Tableau:
+
+  [View Models Evaluation](https://public.tableau.com/views/ModelsEvaluationErrorMetrics/DashboardModelsEvaluation?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+- Full Python code attached.
+
+📌 Further Possible Improvement (Model Optimization, backtesting)
