@@ -65,9 +65,9 @@ In manufacturing and supply chain management, demand forecasting helps companies
 
 2️⃣ **Train/test data split (Time-based)**
 
-   Train: 2011 - 2015
+  - Train: 2011 - 2015
 
-   Test: 2016
+  - Test: 2016
 
 3️⃣ **Baseline Models**
   
