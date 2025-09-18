@@ -97,6 +97,8 @@ In manufacturing and supply chain management, demand forecasting helps companies
 
   [View Models Evaluation](https://public.tableau.com/views/ModelsEvaluationErrorMetrics/DashboardModelsEvaluation?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
+- The errors metric are currently high for all models, to be analysed and reevaluate
+
 - Full Python code attached.
 
 📌 Further Possible Improvement (Model Optimization, backtesting)
