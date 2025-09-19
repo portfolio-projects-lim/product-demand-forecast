@@ -97,7 +97,13 @@ In manufacturing and supply chain management, demand forecasting helps companies
 
   [View Models Evaluation](https://public.tableau.com/views/ModelsEvaluationErrorMetrics/DashboardModelsEvaluation?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-- The errors metric are currently high for all models, to be analysed and reevaluate
+- The errors metric are currently high for all models
+
+- Optimization: Aggregate sales by Product_Category instead of Product_Code, smoothing outliers by z-score
+
+- The improved Error Metrics published on Tableau:
+
+  [View Improved Models Evaluation](https://public.tableau.com/views/ForecastModelsEvaluation-AfterOptimize/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 - Full Python code attached.
 
