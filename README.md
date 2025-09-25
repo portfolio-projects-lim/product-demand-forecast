@@ -1,7 +1,7 @@
 # product-demand-forecast
 This project uses real-world manufacturing demand data to forecast future product demand with time series and machine learning models.
 
-📦 Product Demand Forecasting
+📦 Product Demand Forecasting ***In-Progress
 
 📌 Project Background
 
@@ -105,6 +105,17 @@ In manufacturing and supply chain management, demand forecasting helps companies
 
   [View Improved Models Evaluation](https://public.tableau.com/views/ForecastModelsEvaluation-AfterOptimize/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-- Full Python code attached.
+  *** This 2016 forecast is based on actual data (optimistic 2016 forecast: close to actuals, but unrealistic)
 
-📌 Further Possible Improvement (Model Optimization, backtesting)
+  *** Another 2016 forecast is generated based on predicted data (realistic 2016 forecast: flatter, similar to 2017+ where actual data is not available)
+  .
+  .
+  .
+  .
+  .
+  .
+  .
+  .
+
+
+📌 Further Possible Improvement
