@@ -105,17 +105,20 @@ In manufacturing and supply chain management, demand forecasting helps companies
 
   [View Improved Models Evaluation](https://public.tableau.com/views/ForecastModelsEvaluation-AfterOptimize/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-  *** This 2016 forecast is based on actual data (optimistic 2016 forecast: close to actuals, but unrealistic)
+- Application (.exe file) is generated for future forecast.
 
-  *** Another 2016 forecast is generated based on predicted data (realistic 2016 forecast: flatter, similar to 2017+ where actual data is not available)
-  .
-  .
-  .
-  .
-  .
-  .
-  .
-  .
+  (1) User Input Forecast Date
+  
+  (2) User Input Product Demand History excel file - columns: Product_Code, Warehouse, Product_Category, Date, Order_Demand
 
+  (3) User browse save path and name the output file (Demand Forecast excel file)
 
-📌 Further Possible Improvement
+  The application request user input Forecast date range (YYYY-MM-DD) and 'Product Demand History' excel (.csv) file, analyse the best forecast model based on MAPE, analyse the best config and parameters combination (for XGBoost model), perform the future forecast and output the forecast results in excel (.csv) file
+  
+📌 Further Improvement 
+.
+.
+.
+.
+.
+
