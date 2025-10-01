@@ -35,13 +35,15 @@ In manufacturing and supply chain management, demand forecasting helps companies
 
 📌 Skills
 
-- Python: Pandas, NumPy, Matplotlib, Seaborn
+- Python Data Processing: Pandas, NumPy
 
-- Database: SQLite
+- Time Series Baseline Forecast Models
 
-- Machine Learning & Time Series Forecast Models
+- Machine Learning: sklearn, xgboost, prophet
 
 - Visualization: Tableau, Matplotlib, Seaborn
+
+- UI: tkinter
 
 📌 Steps:
 
