@@ -107,9 +107,9 @@ In manufacturing and supply chain management, demand forecasting helps companies
 
 - Application (.exe file) is generated for future forecast
 
-  Forecast_Tools_v1 uploaded on Google Drive: [Forecast_Tools_v1](https://drive.google.com/file/d/1bUs41ag9V8w_6HZGZmjJLyjTBClSzaBZ/view?usp=drive_link)
+  Forecast_Tools_v1 uploaded on Google Drive: [Forecast_Tools_v1](https://drive.google.com/file/d/1XjGFdEDEQdmpir3eKx6F9WexfWwUMNeS/view?usp=drive_link)
 
-  Sample input file uploaded on Google Drive [Historical Product Demand.csv](https://drive.google.com/file/d/1iV2PplE7Pxa5b3BE8UFsXz0RfkAvJaLK/view?usp=drive_link)
+  Sample input file uploaded on Google Drive: [Historical Product Demand.csv](https://drive.google.com/file/d/1iV2PplE7Pxa5b3BE8UFsXz0RfkAvJaLK/view?usp=drive_link)
 
   (1) User Input: Forecast Range (number of forecast months)
   
