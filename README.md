@@ -1,7 +1,7 @@
 # product-demand-forecast
 This project uses real-world manufacturing demand data to forecast future product demand with time series and machine learning models.
 
-📦 Product Demand Forecasting ***In-Progress
+📦 Product Demand Forecasting
 
 📌 Project Background
 
@@ -105,15 +105,19 @@ In manufacturing and supply chain management, demand forecasting helps companies
 
   [View Improved Models Evaluation](https://public.tableau.com/views/ForecastModelsEvaluation-AfterOptimize/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-- Application (.exe file) is generated for future forecast.
+- Application (.exe file) is generated for future forecast
 
-  (1) User Input Forecast Date
+  Forecast_Tools_v1 uploaded on Google Drive: [Forecast_Tools_v1](https://drive.google.com/file/d/1bUs41ag9V8w_6HZGZmjJLyjTBClSzaBZ/view?usp=drive_link)
+
+  Sample input file uploaded on Google Drive [Historical Product Demand.csv](https://drive.google.com/file/d/1iV2PplE7Pxa5b3BE8UFsXz0RfkAvJaLK/view?usp=drive_link)
+
+  (1) User Input: Forecast Range (number of forecast months)
   
-  (2) User Input Product Demand History excel file - columns: Product_Code, Warehouse, Product_Category, Date, Order_Demand
+  (2) User Input: Select Product Demand History excel file (which contains - columns: Product_Code, Warehouse, Product_Category, Date, Order_Demand)
 
-  (3) User browse save path and name the output file (Demand Forecast excel file)
+  (3) Generated Models_Evaluation_Results.csv
 
-  The application request user input Forecast date range (YYYY-MM-DD) and 'Product Demand History' excel (.csv) file, analyse the best forecast model based on MAPE, analyse the best config and parameters combination (for XGBoost model), perform the future forecast and output the forecast results in excel (.csv) file
+  (3) User browse save path and name of the forecast output file
   
 📌 Further Improvement 
 .
