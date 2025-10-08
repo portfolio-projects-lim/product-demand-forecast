@@ -87,39 +87,34 @@ In manufacturing and supply chain management, demand forecasting helps companies
 
 5️⃣ **Models Evaluation**
 
-  - Calculate MAE, RMSE, MAPE for each model
-    
-6️⃣ **Export to CSV**  
+  - Calculate MAE, RMSE, MAPE, WMAPE for each model
 
-  - For analysis and visualization: Model_Evaluation_Results.csv
+  - Export to excel file (.csv)
+  
+  - Error Metrics Comparison published on Tableau:
+
+    Initial High Errors Metric: [View Models Evaluation](https://public.tableau.com/views/ModelsEvaluationErrorMetrics/DashboardModelsEvaluation?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+  - Optimization: Aggregate sales by Product_Category instead of Product_Code, smoothing outliers by z-score [View Improved Models Evaluation](https://public.tableau.com/views/ForecastModelsEvaluation-AfterOptimize/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+    
+6️⃣ **Forecast using Best Model and Best Parameters**  
 
 7️⃣ **Visualization**
+ 
+- Application file (.exe) is generated for future forecast
 
-- Error Metrics Comparison published on Tableau:
+  Forecast_Tools_v3: [Forecast_Tools_v3](https://drive.google.com/file/d/1i9gWT4bvGZju-zlKVRhkULH3FV8zTjPX/view?usp=drive_link)
 
-  [View Models Evaluation](https://public.tableau.com/views/ModelsEvaluationErrorMetrics/DashboardModelsEvaluation?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+  Sample input file: [Historical Product Demand.csv](https://drive.google.com/file/d/1iV2PplE7Pxa5b3BE8UFsXz0RfkAvJaLK/view?usp=drive_link)
 
-- The errors metric are currently high for all models
+  Sample forecast output files: [Product Demand Forecast Plots and HTML](https://drive.google.com/drive/folders/1gfbdDwhMgUggCn2y_3sg2VCVmV4zW4J-?usp=drive_link) [Product Demand Forecast excel](https://drive.google.com/drive/folders/1WC_IeXzIroL2-CPr_eNis_bAI9fedi2R?usp=drive_link)
 
-- Optimization: Aggregate sales by Product_Category instead of Product_Code, smoothing outliers by z-score
-
-- The improved Error Metrics published on Tableau:
-
-  [View Improved Models Evaluation](https://public.tableau.com/views/ForecastModelsEvaluation-AfterOptimize/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
-- Application (.exe file) is generated for future forecast
-
-  Forecast_Tools_v1 uploaded on Google Drive: [Forecast_Tools_v1](https://drive.google.com/file/d/1XYrfoFUoaN_r8_QJJ_2JVOfit7fLqC_g/view?usp=drive_link)
-
-  Sample input file uploaded on Google Drive: [Historical Product Demand.csv](https://drive.google.com/file/d/1iV2PplE7Pxa5b3BE8UFsXz0RfkAvJaLK/view?usp=drive_link)
-
-  (1) User Input: Forecast Range (number of forecast months)
+  (1) User Input: Forecast Range (number of forecast months), browse save path and file name
   
   (2) User Input: Select Product Demand History excel file (which contains - columns: Product_Code, Warehouse, Product_Category, Date, Order_Demand)
 
-  (3) Generated Models_Evaluation_Results.csv
+  (3) Output: Generated forecast plots, excel files, html plots
 
-  (3) User browse save path and name of the forecast output file
   
 📌 Further Improvement 
 .
