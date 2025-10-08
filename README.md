@@ -43,7 +43,7 @@ In manufacturing and supply chain management, demand forecasting helps companies
 
 - Visualization: Tableau, Matplotlib, Seaborn
 
-- UI: tkinter
+- UI: tkinter, HTML
 
 📌 Steps:
 
@@ -93,9 +93,11 @@ In manufacturing and supply chain management, demand forecasting helps companies
   
   - Error Metrics Comparison published on Tableau:
 
-    Initial High Errors Metric: [View Models Evaluation](https://public.tableau.com/views/ModelsEvaluationErrorMetrics/DashboardModelsEvaluation?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+    Initial High Errors Metric:
+    [View Models Evaluation](https://public.tableau.com/views/ModelsEvaluationErrorMetrics/DashboardModelsEvaluation?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-  - Optimization: Aggregate sales by Product_Category instead of Product_Code, smoothing outliers by z-score [View Improved Models Evaluation](https://public.tableau.com/views/ForecastModelsEvaluation-AfterOptimize/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+    Optimization: Aggregate sales by Product_Category instead of Product_Code, smoothing outliers by z-score
+    [View Improved Models Evaluation](https://public.tableau.com/views/ForecastModelsEvaluation-AfterOptimize/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
     
 6️⃣ **Forecast using Best Model and Best Parameters**  
 
@@ -107,7 +109,9 @@ In manufacturing and supply chain management, demand forecasting helps companies
 
   Sample input file: [Historical Product Demand.csv](https://drive.google.com/file/d/1iV2PplE7Pxa5b3BE8UFsXz0RfkAvJaLK/view?usp=drive_link)
 
-  Sample forecast output files: [Product Demand Forecast Plots and HTML](https://drive.google.com/drive/folders/1gfbdDwhMgUggCn2y_3sg2VCVmV4zW4J-?usp=drive_link) [Product Demand Forecast excel](https://drive.google.com/drive/folders/1WC_IeXzIroL2-CPr_eNis_bAI9fedi2R?usp=drive_link)
+  Sample forecast output files:
+  [Product Demand Forecast Plots and HTML](https://drive.google.com/drive/folders/1gfbdDwhMgUggCn2y_3sg2VCVmV4zW4J-?usp=drive_link)
+  [Product Demand Forecast excel](https://drive.google.com/drive/folders/1WC_IeXzIroL2-CPr_eNis_bAI9fedi2R?usp=drive_link)
 
   (1) User Input: Forecast Range (number of forecast months), browse save path and file name
   
