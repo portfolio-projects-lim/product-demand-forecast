@@ -110,7 +110,9 @@ In manufacturing and supply chain management, demand forecasting helps companies
   Sample input file: [Historical Product Demand.csv](https://drive.google.com/file/d/1iV2PplE7Pxa5b3BE8UFsXz0RfkAvJaLK/view?usp=drive_link)
 
   Sample forecast output files:
+  
   [Product Demand Forecast Plots and HTML](https://drive.google.com/drive/folders/1gfbdDwhMgUggCn2y_3sg2VCVmV4zW4J-?usp=drive_link)
+
   [Product Demand Forecast excel](https://drive.google.com/drive/folders/1WC_IeXzIroL2-CPr_eNis_bAI9fedi2R?usp=drive_link)
 
   (1) User Input: Forecast Range (number of forecast months), browse save path and file name
