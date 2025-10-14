@@ -123,6 +123,14 @@ In manufacturing and supply chain management, demand forecasting helps companies
 
   
 📌 Further Improvement 
+
+- Forecast_Tools_v5 improvement:
+
+    Removed z-score smoothing (high demand clipped by smoothing, causing inaccuracy)
+
+    Improve baseline, hyperparameters tuning, seasonal patterns check
+
+    Process extreme high demand group separately - added stats comparisons (global:group stats ratio)
 .
 .
 .
