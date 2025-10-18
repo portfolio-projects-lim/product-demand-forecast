@@ -111,7 +111,12 @@ In manufacturing and supply chain management, demand forecasting helps companies
 
   Sample forecast output files:
   
-  [Product Demand Forecast Plots and HTML](https://drive.google.com/file/d/1xSpwZ0qUhkBFuhpGOlRM3gSJvS83DRZS/view?usp=drive_link)
+  [Product Demand Forecast HTML Report](https://drive.google.com/file/d/1xSpwZ0qUhkBFuhpGOlRM3gSJvS83DRZS/view?usp=drive_link)
+
+  [Product Demand Forecast Plots](https://drive.google.com/file/d/1mr7CDEF32_5neAd6cYjuov9j3pDz6Dbw/view?usp=drive_link)
+  [Product Demand Forecast Plots - 019_WhseJ](https://drive.google.com/file/d/1RbKWr-2GR_q8O9Rf1tvMq3260GIEnQxJ/view?usp=drive_link)
+  [Product Demand Forecast Plots = 019-WhseC](https://drive.google.com/file/d/1e1zw1LwED_-aF196RCwW_Awae_BNVlUJ/view?usp=drive_link)
+  [Product Demand Forecast Plots = 019-WhseS](https://drive.google.com/file/d/1-9j-6ebQHlB-59cIHoTl_nDD-71NTVdJ/view?usp=drive_link)
 
   [Product Demand Forecast excel](https://drive.google.com/file/d/1Ql1A3zqC-WbdXy7R0gLpqbW5u54INxs2/view?usp=drive_link)
 
