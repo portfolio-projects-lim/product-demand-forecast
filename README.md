@@ -131,8 +131,14 @@ In manufacturing and supply chain management, demand forecasting helps companies
     Improve baseline, hyperparameters tuning, seasonal patterns check
 
     Process extreme high demand group separately - added stats comparisons (global:group stats ratio)
-.
-.
+
+. Forecast_Tools_v6 improvement:
+
+  By analysis, high demand category gives very low error metrics. 
+  
+  The overall high error was due to certain Product_category-Warehouse group: Some series having consistent trend in train data but shown sharp decline in test data, causing inaccurate forecast
+
+  Insert pre_filter_problematic_series(): To identify and remove series with extreme data shifts or insufficient data before any analysis or modeling
 .
 .
 .
