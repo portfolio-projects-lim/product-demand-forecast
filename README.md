@@ -105,15 +105,15 @@ In manufacturing and supply chain management, demand forecasting helps companies
  
 - Application file (.exe) is generated for future forecast
 
-  Forecast_Tools_v5: [Forecast_Tools_v5](https://drive.google.com/drive/folders/1rEXlx82AYMW9zBfRFs1XhCreQYyEraon?usp=drive_link)
+  Forecast_Tools_v6: [Forecast_Tools_v6](https://drive.google.com/drive/folders/1pY_jaxMn3ykRClBvxLS2AUXY9sQGAP67?usp=drive_link)
 
   Sample input file: [Historical Product Demand.csv](https://drive.google.com/file/d/1iV2PplE7Pxa5b3BE8UFsXz0RfkAvJaLK/view?usp=drive_link)
 
   Sample forecast output files:
   
-  [Product Demand Forecast Plots and HTML](https://drive.google.com/drive/folders/1gfbdDwhMgUggCn2y_3sg2VCVmV4zW4J-?usp=drive_link)
+  [Product Demand Forecast Plots and HTML](https://drive.google.com/file/d/1xSpwZ0qUhkBFuhpGOlRM3gSJvS83DRZS/view?usp=drive_link)
 
-  [Product Demand Forecast excel](https://drive.google.com/drive/folders/1WC_IeXzIroL2-CPr_eNis_bAI9fedi2R?usp=drive_link)
+  [Product Demand Forecast excel](https://drive.google.com/file/d/1Ql1A3zqC-WbdXy7R0gLpqbW5u54INxs2/view?usp=drive_link)
 
   (1) User Input: Forecast Range (number of forecast months), browse save path and file name
   
@@ -124,7 +124,7 @@ In manufacturing and supply chain management, demand forecasting helps companies
   
 📌 Further Improvement 
 
-- Forecast_Tools_v5 improvement:
+- Forecast_Tools_v5 improvement: [Forecast_Tools_v5](https://drive.google.com/drive/folders/1rEXlx82AYMW9zBfRFs1XhCreQYyEraon?usp=drive_link)
 
     Removed z-score smoothing (high demand clipped by smoothing, causing inaccuracy)
 
@@ -132,13 +132,36 @@ In manufacturing and supply chain management, demand forecasting helps companies
 
     Process extreme high demand group separately - added stats comparisons (global:group stats ratio)
 
-. Forecast_Tools_v6 improvement:
+    Output files:
 
-  By analysis, high demand category gives very low error metrics. 
+      (1) Models_Evaluation_Results.csv => Error Metrics
+
+      (2) Forecast Output File (named by user)
+
+      (3) HTML report and forecast plots for top products
+
+  *** High error metrics for XGBoost forecast after removing z-score smoothing ***
+
+    High demand Product_category-warehouse group shown accurate forecast and low errors
+
+    Certain low/medium Product_category-warehouse group causing high overall error metrics: Some series having consistent trend in train data but shown sharp decline in test data
+
+- Forecast_Tools_v6 improvement: [Forecast_Tools_v6](https://drive.google.com/drive/folders/1pY_jaxMn3ykRClBvxLS2AUXY9sQGAP67?usp=drive_link)
+
+    Insert pre_filter_problematic_series(): To identify and remove series with extreme data shifts or insufficient data before any analysis or modeling
+
+    Improve forecast by weight adjustment for recent data and overall stats
+
+    Output files:
+
+      (1) filtered_series_report.csv => Display problematic series
   
-  The overall high error was due to certain Product_category-Warehouse group: Some series having consistent trend in train data but shown sharp decline in test data, causing inaccurate forecast
+      (2) Models_Evaluation_Results.csv => Error Metrics
 
-  Insert pre_filter_problematic_series(): To identify and remove series with extreme data shifts or insufficient data before any analysis or modeling
+      (3) Forecast Output File (named by user)
+
+      (4) HTML report and forecast plots for top products
+  
 .
 .
 .
